@@ -10,7 +10,7 @@ if (p1 === true && p2 === true) {
 // Desafio 2
 function calcArea(base, height) {
 let triangulo =  (base * height) /2;
-return calcArea; 
+return triangulo; 
 }
 console.log(calcArea(10, 50));
 console.log(calcArea(5, 2));
