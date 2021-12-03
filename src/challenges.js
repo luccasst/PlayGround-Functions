@@ -84,8 +84,21 @@ if(distanciaCat1Mouse > distanciaCat2Mouse){
      
 
 // Desafio 8
-function fizzBuzz() {
-  // seu código aqui
+function fizzBuzz(numeros) {
+  let retorno =[]
+  for( let index = 0; index < numeros.length; index ++){
+    if(numeros[index]%3 == 0 && numeros[index]%5 == 0){
+      retorno.push('fizzBuzz');
+    }else if(numeros[index]%3 == 0){
+      retorno.push('fizz');
+
+    }else if(numeros[index]%5 == 0){
+      retorno.push ('buzz');
+    }else{
+      retorno.push('bug!'); 
+    }
+  }
+  return retorno 
 }
 
 // Desafio 9
